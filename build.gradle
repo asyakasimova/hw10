@@ -22,6 +22,7 @@ allure {
 }
 
 dependencies {
+    implementation "org.aeonbits.owner:owner:1.0.12"
     testImplementation "io.qameta.allure:allure-java-commons:$allureVersion"
     testImplementation "io.qameta.allure:allure-selenide:$allureVersion"
     testImplementation "org.hamcrest:hamcrest-all:1.3"
@@ -36,6 +37,7 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 }
 
 tasks.withType(Test) {
