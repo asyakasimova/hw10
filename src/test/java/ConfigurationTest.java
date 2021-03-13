@@ -14,6 +14,6 @@ public class ConfigurationTest {
         assertThat(config.getWebDriverBrowser()).isEqualTo("chrome");
         assertThat(config.getBaseUrl()).isEqualTo("https://testing.github.com");
         assertThat(config.isEnabled()).isEqualTo(true);
-        // 37.03
+        // somewhere near 50.10
     }
 }
