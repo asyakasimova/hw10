@@ -1,3 +1,5 @@
+package tests;
+
 import io.github.qaguru.owner.GlobalConfig;
 import io.github.qaguru.owner.Proxy;
 import org.aeonbits.owner.ConfigFactory;

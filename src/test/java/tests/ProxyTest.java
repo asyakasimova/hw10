@@ -1,3 +1,5 @@
+package tests;
+
 import io.github.qaguru.owner.ProxyConfig;
 import io.github.qaguru.owner.SelenoidConfig;
 import org.aeonbits.owner.ConfigFactory;

@@ -1,3 +1,5 @@
+package tests;
+
 import io.github.qaguru.owner.CredentialsConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.Test;

@@ -1,3 +1,5 @@
+package tests;
+
 import com.codeborne.selenide.Configuration;
 import io.github.qaguru.owner.SelenoidConfig;
 import org.aeonbits.owner.ConfigFactory;

@@ -1,3 +1,5 @@
+package tests;
+
 import io.github.qaguru.owner.WebDriverConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.Test;
@@ -14,6 +16,5 @@ public class ConfigurationTest {
         assertThat(config.getWebDriverBrowser()).isEqualTo("chrome");
         assertThat(config.getBaseUrl()).isEqualTo("https://testing.github.com");
         assertThat(config.isEnabled()).isEqualTo(true);
-        // somewhere near 50.10
     }
 }
